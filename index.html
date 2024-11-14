@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Tienda Online</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo-miami.PNG" alt="Logo de la tienda">
+            <h2 class="nombre-empresa">TIENDA MIAMEEE</h2>
+        </div>
+        <nav>
+            <a href="#" class="nav-link">INICIO</a> 
+            <a href="#nosotrosButton" class="nav-link">NOSOTROS</a>
+            <a href="#contactoButton" class="nav-link">CONTACTO</a>
+        </nav>
+    </header>
+
+    <h1 class="efecto-desplazamiento">50% OFF EN TODOS LOS PRODUCTOS</h1>
+
+    <div class="catalogo">
+        <!-- Productos: 1ra fila -->
+        <div class="producto">
+            <img src="lattafa-asad.jfif" alt="lattafa-asad" width="200" height="200">
+            <h3>Lataffa Asad</h3>
+            <p>Precio: $42.00</p>
+            <a href="https://wa.link/jr3fhq"><button id="botoncompra">Reservar</button></a>
+        </div>
+
+        <div class="producto">
+            <img src="lataffa-yara.jfif" alt="lataffa-yara" width="200" height="200">
+            <h3>Latafa Yara</h3>
+            <p>Precio: $42.00</p>
+            <a href="https://wa.link/jr3fhq"><button id="botoncompra">Reservar</button></a>
+        </div>
+
+        <div class="producto">
+            <img src="latafa-khamrah.jfif" alt="latafa-khamrah" width="200" height="200">
+            <h3>Lataffa Kamrah</h3>
+            <p>Precio: $54.00</p>
+            <a href="https://wa.link/jr3fhq"><button id="botoncompra">Reservar</button></a>
+        </div>
+
+        <!-- Productos: 2da fila -->
+        <div class="producto">
+            <img src="jean-paul-gluttier-scandal.jfif" alt="jean-paul-gluttier-scandal" width="200" height="200">
+            <h3>Jean Paul Gluttier Scandall</h3>
+            <p>Precio: $100.00</p>
+            <a href="https://wa.link/jr3fhq"><button id="botoncompra">Reservar</button></a>
+        </div>
+
+        <div class="producto">
+            <img src="paco-rabanne-olympea.jfif" alt="paco-rabanne-olympea" width="200" height="200">
+            <h3>Paco Rabanne Olympea</h3>
+            <p>Precio: $106.00</p>
+            <a href="https://wa.link/jr3fhq"><button id="botoncompra">Reservar</button></a>
+        </div>
+
+        <div class="producto">
+            <img src="lataffa-qaed-al-fursan.jfif" alt="" width="200" height="200">
+            <h3>Lataffa Qaed Al Fursan  </h3>            
+            <p>Precio: $89.00</p>
+            <a href="https://wa.link/jr3fhq"><button id="botoncompra">Reservar</button></a>
+        </div>
+    </div>
+
+    <!-- Botón y Sección Nosotros -->
+    <button onclick="toggleSection('nosotros')" id="nosotrosButton">Nosotros</button>
+    <section id="nosotros" class="seccion-nosotros">
+        <h2>Nosotros</h2>
+        <p>Somos Tienda MIAMEEE, una empresa dedicada a ofrecer productos de alta calidad para nuestros clientes. Nuestra misión es brindar la mejor experiencia de compra con atención personalizada y productos seleccionados. Contamos con una trayectoria de años en el mercado, enfocándonos en la satisfacción total del cliente.</p>
+    </section>
+
+    <!-- Botón y Sección Contacto -->
+    <button onclick="toggleSection('contacto')" id="contactoButton">Contacto</button>
+    <section id="contacto" class="seccion-contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta o comentario? ¡Nos encantaría saber de ti! Contáctanos a través de cualquiera de los siguientes medios:</p>
+        <ul>
+            <li><strong>Teléfono:</strong> +123 456 789</li>
+            <li><strong>Email:</strong> contacto@miameee.com</li>
+            <li><strong>Dirección:</strong> Calle Falsa 123, Miami</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="logo">
+                <img src="logo-miami.PNG" alt="Logo de la tienda">
+                <h2 class="calidad-garantizada">CALIDAD GARANTIZADA</h2>
+            </div>
+            <div class="formulario">
+                <form action="elias.lugones1@hotmail.com">
+                    <label></label>
+                    <input type="email" placeholder="Ingresa tu email">
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
